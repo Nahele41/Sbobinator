@@ -8,7 +8,7 @@ class Transcriber:
     def __init__(self):
         pass
 
-    def process_audio(self, audio_handler, start_sec, end_sec, api_key, progress_callback=None, text_callback=None):
+    def process_audio(self, audio_handler, start_sec, end_sec, api_key, output_filename, progress_callback=None, text_callback=None):
         """
         Gestisce il taglio intelligente e l'invio a Groq in chunk.
         """
@@ -71,7 +71,7 @@ class Transcriber:
                     os.remove(temp_filename)
 
         # 5. Salvataggio finale
-        self.save_to_file(audio_handler.filepath, full_transcript, text_callback)
+        self.save_to_file(output_filename, full_transcript, text_callback)
         return full_transcript
 
     def save_to_file(self, original_audio_path, text, callback):
@@ -84,7 +84,7 @@ class Transcriber:
             base_name = os.path.splitext(filename_only)[0]
 
             # 3. Costruiamo il percorso finale dentro "Sbobinature"
-            txt_path = os.path.join(folder, f"{base_name}_transcript.txt")
+            txt_path = os.path.join(folder, f"{base_name}.txt")
 
             with open(txt_path, "w", encoding="utf-8") as f:
                 f.write(text)
