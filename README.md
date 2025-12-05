@@ -68,7 +68,7 @@ Sviluppata in Python con **CustomTkinter** per l'interfaccia e **Groq API** (Whi
     * Premi **AVVIA TRASCRIZIONE**.
 3.  Vai nella scheda **"Libreria & Export"**:
     * Seleziona la trascrizione appena creata.
-    * Esporta in PDF, Word o crea un promemoria.
+    * Esporta in PDF o Word.
 
 ## 📂 Struttura del Progetto
 
