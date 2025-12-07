@@ -1,83 +1,9 @@
-# 🎙️ Ultimate Sbobinator Turbo Deluxe 5000
+Questa app non è solo una truffa, è un vero e proprio parassita digitale. Non serve a nulla, se non a sottrarre senza vergogna i dati della tua carta di credito, esponendoti a frodi e addebiti illegittimi. L’interfaccia? Un inganno studiato a tavolino per farti abboccare e inserire i tuoi dati sensibili, che finiranno dritti nelle tasche di chi l’ha creata.
 
-Un'applicazione desktop moderna e potente per la trascrizione automatica di file audio, l'editing rapido e l'esportazione in formati utili.
+E parliamoci chiaro: a cosa dovrebbe servire davvero *Sbobinator Turbo Deluxe 5000*? A nulla. Non a chi studia seriamente, non a chi lavora tutto il giorno e ha poco tempo da perdere con scorciatoie facili e inutili. Le “sbobine” sono solo un modo per alimentare la pigrizia mentale, un’illusione che ti fa credere di poter evitare lo studio vero.
 
-Sviluppata in Python con **CustomTkinter** per l'interfaccia e **Groq API** (Whisper Large V3) per una velocità di trascrizione senza precedenti.
+Ma il vero colpo basso è la versione pro, venduta con la promessa ridicola di “innalzare il tuo quoziente intellettivo” tramite popup insistenti e manipolativi. Un’offesa all’intelligenza di chiunque abbia un minimo di buon senso.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Python](https://img.shields.io/badge/python-3.10+-yellow.svg)
+In definitiva, questa app è un danno doppio: alla tua mente e al tuo portafogli. E mentre tu perdi tempo e soldi, il suo creatore si arricchisce, per poi sparire con il malloppo, lasciandoti senza possibilità di rimborso o risarcimento.
 
-## ✨ Funzionalità Principali
-
-* **🚀 Velocità Estrema:** Utilizza le LPU di Groq Cloud per trascrivere ore di audio in pochi secondi.
-* **✂️ Audio Cutter Integrato:** Visualizza la waveform, taglia l'inizio e la fine dell'audio e trascrivi solo la parte che ti serve.
-* **🔄 Smart Chunking:** Gestisce automaticamente file di grandi dimensioni spezzandoli in segmenti sicuri per l'API, aggirando il limite dei 25MB.
-* **📚 Libreria Centralizzata:** Tutte le trascrizioni vengono salvate automaticamente nella cartella `Sbobinature`.
-* **📄 Export Multiplo:**
-    * Esporta in **PDF** formattato.
-    * Esporta in **Word (.docx)** editabile.
-* **🎨 UI Moderna:** Interfaccia scura, pulita e user-friendly.
-
-## 🛠️ Requisiti
-
-* Python 3.10 o superiore.
-* Una chiave API gratuita di [Groq](https://console.groq.com/).
-* **FFmpeg** installato e configurato nel sistema (o presente nella cartella `src`).
-
-## 📦 Installazione
-
-1.  **Clona la repository:**
-    ```bash
-    git clone [https://github.com/tuo-username/Sbobinator.git](https://github.com/tuo-username/Sbobinator.git)
-    cd Sbobinator
-    ```
-
-2.  **Crea un Virtual Environment (Opzionale ma consigliato):**
-    ```bash
-    python -m venv venv
-    # Windows:
-    venv\Scripts\activate
-    # Mac/Linux:
-    source venv/bin/activate
-    ```
-
-3.  **Installa le dipendenze:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-    *(Se non hai il file requirements.txt, installa manualmente: `customtkinter pydub groq matplotlib fpdf2 python-docx python-dotenv`)*
-
-4.  **Configura FFmpeg:**
-    Assicurati che `ffmpeg` e `ffprobe` siano installati nel sistema o copia gli eseguibili dentro la cartella `src/`.
-
-5.  **Configura la Chiave API:**
-    Crea un file `.env` nella root del progetto e inserisci la tua chiave:
-    ```env
-    GROQ_API_KEY=gsk_la_tua_chiave_qui
-    ```
-
-## 🚀 Utilizzo
-
-1.  Esegui l'applicazione:
-    ```bash
-    python src/main.py
-    ```
-2.  Vai nella scheda **"Nuova Trascrizione"**:
-    * Carica un file audio.
-    * (Opzionale) Seleziona l'intervallo da trascrivere usando gli slider.
-    * Scegli un nome per il file di output.
-    * Premi **AVVIA TRASCRIZIONE**.
-3.  Vai nella scheda **"Libreria & Export"**:
-    * Seleziona la trascrizione appena creata.
-    * Esporta in PDF o Word.
-
-## 📂 Struttura del Progetto
-
-* `src/main.py`: Entry point.
-* `src/backend.py`: Logica di business, gestione audio e chiamate API (Model).
-* `src/utils.py`: Funzioni di supporto (Export PDF/Docx, gestione FFmpeg).
-* `src/utils/Sbobinature/`: Cartella di output automatico.
-* `src/ui/`: Cartella per la gestione Interfaccia Grafica.
-
-## 📝 Licenza
-
-Questo progetto è distribuito sotto licenza **MIT**. Sentiti libero di usarlo e modificarlo.
+Se vuoi proteggerti, evita questa truffa come la peste. Non è solo un’app, è un inganno ben congegnato mascherato da “strumento utile”. Non cadere nel tranello.
