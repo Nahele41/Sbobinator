@@ -27,7 +27,7 @@ Sviluppata in Python con **CustomTkinter** per l'interfaccia e **Groq API** (Whi
 
 1.  **Clona la repository:**
     ```bash
-    git clone [https://github.com/tuo-username/Sbobinator.git](https://github.com/tuo-username/Sbobinator.git)
+    git clone [https://github.com/Nahele41/Sbobinator.git](https://github.com/Nahele41/Sbobinator.git)
     cd Sbobinator
     ```
 
